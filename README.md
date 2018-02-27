@@ -81,7 +81,7 @@ public class ProducerConsumer {
 
 This code models the following stochastic time Petri net (STPN):
 
-<img src="stpn.png" title="STPN Model" width="300">
+<img src="stpn.png" title="STPN Model" width="400">
 
 By clicking on the menu `Run > Run as > Java Application` you can
 start the analysis. You will see the following plot of transient
