@@ -6,8 +6,8 @@ This repository provides a ready-to-use Maven project that you can easily import
 
 Just follow these steps:
 
-1. **Install Java 9.** For Windows and macOS, you can download a
-   [package from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html); on Debian unstable (sid) or testing (buster), or Ubuntu "bionic", you can just run `apt-get install openjdk-9-jdk`.
+1. **Install Java 17.**
+    - We recommend JDK binaries built and tested by the [Adoptium project](https://adoptium.net/releases.html?variant=openjdk17).
 
 2. **Download Eclipse.** The [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/eclipse-packages/) package is sufficient.
 
@@ -21,7 +21,9 @@ Just follow these steps:
      `https://github.com/oris-tool/sirio-examples.git` and click
      `Next` and then `Finish`.
 
-Your Eclipse project is ready! Just navigate to `src/main/java` and open `ProducerConsumer.java` inside the package `org.oristool.examples`. You will find the following example:
+Your Eclipse project is ready!
+
+Just navigate to `src/main/java` and open `ProducerConsumer.java` inside the package `org.oristool.examples`. You will find the following example:
 
 ```java
 public class ProducerConsumer {
